@@ -1,7 +1,7 @@
 # LineOfCodeboi.github.io
 My github.io page :)
 
-This will mostly be games.
+This will mostly be games. Will I make it look prettier? Yeah, later.
 
 ### Link
 https://lineofcodeboi.github.io
