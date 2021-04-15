@@ -10,6 +10,9 @@ https://lineofcodeboi.github.io
 Snake. Good luck! 
 My highest score: ```36```
 
+### Upcoming Game
+Tic tac toe
+
 ### Made With
 [p5.js](p5js.org)
 
