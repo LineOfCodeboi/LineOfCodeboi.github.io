@@ -3,6 +3,7 @@ var scl = 20;
 var high = 1;
 var higher = false;
 var gemeld = false;
+var direction;
 
 function setup() {
   createCanvas(600, 600);
@@ -61,13 +62,17 @@ function updateScore() {
 }
 
 function keyPressed() {
-  if(keyCode === UP_ARROW) {
+  if(keyCode === UP_ARROW && direction != 'down') {
     s.dir(0, -1)
-  } else if(keyCode === DOWN_ARROW) {
+    direction = 'up';
+  } else if(keyCode === DOWN_ARROW && direction != 'up') {
     s.dir(0, 1)
-  } else if(keyCode === RIGHT_ARROW) {
+    direction = 'down';
+  } else if(keyCode === RIGHT_ARROW && direction != 'left') {
     s.dir(1, 0)
-  } else if(keyCode === LEFT_ARROW) {
+    direction = 'right';
+  } else if(keyCode === LEFT_ARROW && direction != 'right') {
     s.dir(-1, 0)
+    direction = 'left';
   }
 }
