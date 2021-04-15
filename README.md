@@ -1,4 +1,4 @@
-# github.io
+# LineOfCodeboi.github.io
 My github.io page :)
 
 This will mostly be games.
